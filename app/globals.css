@@ -2,26 +2,55 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&family=Dongle&family=Duru+Sans&family=Kanit:wght@100&family=Lato:ital,wght@0,300;0,700;1,100&family=Montserrat:wght@200;600&family=Poppins:ital,wght@0,100;0,400;0,500;1,500&family=Roboto+Mono:wght@200;400&family=Roboto:wght@500;900&family=Rubik:wght@500;800&display=swap');
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background: rgb(255, 255, 255);
+  cursor: none;
+  scrollbar-width: 0;
+}
+
+body::-webkit-scrollbar{
+  display: none;
+}
+
+.cursor {
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgb(24,23,23);
+  pointer-events: none;
+  z-index: 999999999;
+}
+
+@media screen and (min-width:80rem) {
+    .pseudo::before {
+      content: '';
+      position: absolute;
+      height: 100%;
+      width: 1px;
+      background: #000;
+      top: 0;
+      display: block;
+      right: 0;
+    }
+}
+
+
+.scroll-section {
+  padding: 0;
+  display: flex;
+  background: #000;
+  color: white;
+  padding-right: 2rem;
+  padding-left: 1rem;
+  font-weight: bolder;
+  color: white;
+  padding-inline: 1.5rem;
+  align-items: center;
+
 }
