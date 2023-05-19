@@ -20,7 +20,7 @@ export default function Navbar() {
     <header>
 
             <div className='flex items-center justify-between px-6 py-6 cursor-default'>
-                <Link href='/' className='uppercase text-[1.5rem] z-50 ml-4'>John <span className='text-gray-400'>Menda</span></Link>
+                <Link href='/' className='uppercase text-[1.5rem] z-50 ml-4'>Elnur <span className='text-gray-400'>Far</span></Link>
                 
                 <div className='flex items-center gap-4'>
                     <Button

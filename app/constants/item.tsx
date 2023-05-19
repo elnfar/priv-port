@@ -25,67 +25,46 @@ export const NavLinks = [
 
 export  const card = [
     {
-        image:'/type.png',
+        image:'/udemy.png',
         ImgTitle:'no title',
-        name:'TypeScript course',
-        description:'TypeScript is strongest language for writing code for web development',
-        onClick: 'https://github.com'
+        name:'Full stack Udemy App',
+        description:'Building full stack udemy clone using Nextjs, MongoDB, Prisma, Tailwind CSS',
+        onClick: 'https://github.com/elnfar/udemy-clone'
     },
     {
-        image:'/node.png',
+        image:'/next.webp',
         ImgTitle:'no title',
-        name:'Nodejs course',
-        description:'Nodejs is strongest language for writing code for web development',
-        onClick: '/github/....'
-    },
-    {
-        image:'/mongodb.png',
-        ImgTitle:'no title',
-        name:'Mongodb course',
-        description:'MongoDB is strongest language for writing code for web development',
-        onClick: '/github/....'
-    },
-    {
-        image:'/react.png',
-        ImgTitle:'no title',
-        name:'Reactjs course',
-        description:'React is strongest language for writing code for web development',
-        onClick: '/github/....'
-    },
-
-
-    {
-        image:'/python.png',
-        ImgTitle:'no title',
-        name:'Python course',
-        description:'Python is strongest language for writing code for web development',
-        onClick: '/github/....'
-    },
-
-
-
-    {
-        image:'/c++.png',
-        ImgTitle:'no title',
-        name:'C++ course',
-        description:'C++ is strongest language for writing code for web development',
-        onClick: '/github/....'
-    },
-
-
-    {
-        image:'/c.png',
-        ImgTitle:'no title',
-        name:'C# course',
-        description:'C# is strongest language for writing code for web development',
-        onClick: '/github/....'
+        name:'Blog application with Nextjs',
+        description:'Building a blog application with Nextjs, MongoDB, Prisma, Tailwind CSS',
+        onClick: 'https://github.com/elnfar/Nextjs13-blog'
     },
 
     {
-        image:'/sq.webp',
-        ImgTitle:'no title',
-        name:'mySQL course',
-        description:'mySQL is strongest language for writing code for web development',
-        onClick: '/github/....'
-    },
+      image:'/p.png',
+      ImgTitle:'no title',
+      name:'Stunning Portfolio with Nextjs 13',
+      description:'Building a personal portfolio with Nextjs 13 and Tailwind CSS',
+      onClick: 'https://github.com/elnfar/Nextjs-portfolio'
+  },
+]
+
+
+
+
+export  const work = [
+  {
+      image:'/ss.png',
+  },
+  {
+      image:'/udemy.png',
+  },
+
+  {
+    image:'/ab.png', 
+
+  },
+  {
+    image:'/bc.png', 
+
+  },
 ]

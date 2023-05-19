@@ -6,6 +6,8 @@ import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 import Content from "@/components/Content";
 import WorksCard from "../works/WorksCard";
 import Link from "next/link";
+import WorksImage from "@/components/WorksImage";
+import { card, work } from "../constants/item";
 
 
 function ScrollSection({textEnter,textLeave}:any) {
@@ -62,10 +64,10 @@ function ScrollSection({textEnter,textLeave}:any) {
 
             </div>
 
-            <div className=" scroll-section flex justify-center w-[100%] relative">
+            <div className=" scroll-section flex flex-col gap-4 justify-center w-[100%] relative">
+            <h1 className=" uppercase text-gray-500">Full stack udemy clone with nextjs</h1>
 
-            <div className=" flex flex-col gap-4 items-center justify-between w-[100%]" onMouseEnter={textEnter} onMouseLeave={textLeave} >
-                    <h1 className=" uppercase text-gray-500">Full stack udemy clone with nextjs</h1>
+            {/* <div className=" flex flex-col gap-4 items-center justify-between w-[100%]" onMouseEnter={textEnter} onMouseLeave={textLeave} >
                     <div className="grid grid-cols-2 gap-2">
                       <img src="/ss.png" alt="" className="w-[500px] h-[250px] rounded-md border-4 border-gray-500 opacity-50"/>
                       <img src="/ab.png" alt="" className="w-[500px] h-[250px] rounded-md border-4 border-gray-500 opacity-50"/>
@@ -74,8 +76,18 @@ function ScrollSection({textEnter,textLeave}:any) {
 
                     </div>
 
-                   </div>
+        </div> */}
 
+
+        <div className="grid grid-cols-2 gap-2">
+          {work.map((item:any) => (
+            <WorksImage
+            textEnter={textEnter}
+            textLeave={textLeave}
+            image={item.image}
+            />
+          ))}
+          </div>
             </div>
 
 
