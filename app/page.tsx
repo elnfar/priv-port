@@ -1,8 +1,10 @@
 'use client'
 
-import { useEffect, useState } from "react";
+import { useEffect, useLayoutEffect, useRef, useState } from "react";
 import Hero from "./scene/Hero";
 import ScrollSection from "./scene/Scroll";
+import { gsap } from "gsap";
+import { ScrollTrigger,ScrollSmoother } from "gsap/all";
 
 
 export default function Home() {
@@ -30,8 +32,6 @@ return () => {
 },[])
 
 
-
-
 const variant:any = {
 default: {
     x: mousePosition.x - 16,
@@ -42,13 +42,16 @@ text: {
     width: 150,
     x: mousePosition.x - 75,
     y: mousePosition.y - 75,
-    backgroundColor: "rgb(244, 244, 244)",
+    backgroundColor: "rgb(254, 236, 236)",
     mixBlendMode:"difference"
 }
 }
 
 const textEnter = () => setCursorVariant("text")
 const textLeave = () => setCursorVariant("default")
+
+
+
 
 
 

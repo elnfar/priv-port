@@ -2,13 +2,33 @@
 
 export default function page() {
   return (
-    <div className="bg-black fixed inset-0 h-screen flex items-center px-16 cursor-auto">
-        <div className="text-white font-mono">
-            <h1 className="text-[11rem]">Hello.</h1>
+    <div className="cursor-auto scroll-smooth overflow-hidden">
+        <div className="flex flex-col mx-auto px-12 py-16">
 
-            <p className="py-4">Please contact me directly for discussing your future project.</p>
-            <p>Email: farzaliyevelnur00@gmail.com</p>
-            <p className="flex gap-4 cursor-pointer mt-2">On the web: <a href="https://linkedin.com" className=" border-b-2">Linkedin</a><a href="https://instagram.com" className="border-b-2">Twitter</a><a href="https://youtube.com" className="border-b-2">Youtube</a></p>
+              <h1 className="text-[8rem]">Hi, I'm Elnur</h1>
+
+            <div className="py-12">
+              <p>Address</p>
+              <div className="w-[100%] h-[1px] bg-zinc-500"/>
+              <h1 className="text-[5rem] mt-4">Tbilisi, Georgia</h1>
+            </div>
+
+            <div className="py-12">
+              <p>Telephone</p>
+              <div className="w-[100%] h-[1px] bg-zinc-500"/>
+              <h1 className="text-[5rem] mt-4">+995 599 99 99 99</h1>
+            </div>
+
+
+            <div className="">
+              <p>E-mail (recommended)</p>
+              <div className="w-[100%] h-[1px] bg-zinc-500"/>
+              <h1 className="lgtext-[5rem] text-[1.88rem] mt-4">farzaliyevelnur00@gmail.com</h1>
+            </div>
+
+        <div>
+        </div>
+
         </div>
     </div>
   )
