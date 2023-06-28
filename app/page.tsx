@@ -59,7 +59,7 @@ const textLeave = () => setCursorVariant("default")
   return (
     <main>
       <Hero variant={variant} textEnter={textEnter} textLeave={textLeave} cursorVariant={cursorVariant}/>
-      <ScrollSection variant={variant} textEnter={textEnter} textLeave={textLeave}/>
+      {/* <ScrollSection variant={variant} textEnter={textEnter} textLeave={textLeave}/> */}
     </main>
   )
 }

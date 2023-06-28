@@ -76,7 +76,7 @@ function ScrollSection({textEnter,textLeave}:any) {
                       <img src="/next.webp" alt="" className="w-[500px] h-[250px] object-cover rounded-md border-4 border-gray-500 opacity-50"/>
                       <img src="/git.png" alt="" className="w-[500px] h-[250px] rounded-md border-4 border-gray-500 opacity-50 object-cover"/>
                       <img src="/mern.png" alt="" className="w-[500px] h-[250px] rounded-md border-4 border-gray-500 opacity-50 object-cover"/>
-                      <img src="/sq.webp" alt="" className="w-[500px] h-[250px] object-cover object-cover rounded-md border-4 border-gray-500 opacity-80"/>
+                      <img src="/sq.webp" alt="" className="w-[500px] h-[250px] object-coverrounded-md border-4 border-gray-500 opacity-80"/>
                     </div>
                    </div>
                    </div>

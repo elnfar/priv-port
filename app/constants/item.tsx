@@ -29,7 +29,7 @@ export  const card = [
         ImgTitle:'no title',
         name:'Full stack Udemy App',
         description:'Building full stack udemy clone using Nextjs, MongoDB, Prisma, Tailwind CSS',
-        onClick: 'https://github.com/elnfar/udemy-clone'
+        onClick: 'https://github.com/elnfar/udemy-ts-2'
     },
     {
         image:'/next.webp',
@@ -46,6 +46,30 @@ export  const card = [
       description:'Building a personal portfolio with Nextjs 13 and Tailwind CSS',
       onClick: 'https://github.com/elnfar/Nextjs-portfolio'
   },
+  {
+    image:'/searchfilter.png',
+    ImgTitle:'no title',
+    name:'Search & Filtering with Reactjs and Nodejs (TS and Express)',
+    description:'Building a personal portfolio with Nextjs 13 and Tailwind CSS',
+    onClick: 'https://github.com/elnfar/SearchFunc'
+},
+
+  {
+    image:'/rust.png',
+    ImgTitle:'no title',
+    name:'Web server with Rust',
+    description:'Building a simple web server with Rust',
+    onClick: 'https://github.com/elnfar/Rust-Tide-Web-Server'
+  },
+  {
+    image:'/stripe.png',
+    ImgTitle:'no title',
+    name:'E-commerce',
+    description:'E-commerce app with Nextjs 13 and Stripe API',
+    onClick: 'https://github.com/elnfar/ecommercenext'
+  },
+
+
 ]
 
 
